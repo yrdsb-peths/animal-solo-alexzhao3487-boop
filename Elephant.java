@@ -9,6 +9,13 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Elephant extends Actor
 {
     GreenfootSound elephantSound = new GreenfootSound("comical elephant fart.mp3");
+    GreenfootImage idle = new GreenfootImage("images/elephant-idle/idle0.png");
+    
+    public Elephant()
+    {
+        setImage(idle);
+    }
+    
     public void act()
     {
         // Add your action code here.
