@@ -30,6 +30,7 @@ public class TitleScreen extends World
             Greenfoot.setWorld(gameWorld);
         }
     }
+    
     /**
      * Prepare the world for the start of the program.
      * That is: create the initial objects and add them to the world.
@@ -38,5 +39,19 @@ public class TitleScreen extends World
     {
         Elephant elephant = new Elephant();
         addObject(elephant,494,83);
+        elephant.setLocation(508,162);
+        elephant.setLocation(488,93);
+        elephant.setLocation(513,141);
+        Label label = new Label("press space to start", 50);
+        addObject(label,128,198);
+        label.setLocation(334,198);
+        label.setLocation(292,222);
+        Label label2 = new Label("use \u2190 and \u2192 arrows to move", 30);
+        addObject(label2,106,292);
+        label2.setLocation(389,300);
+        label.setLocation(324,249);
+        label.setLocation(328,210);
+        label.setLocation(346,98);
+        label.setLocation(247,359);
     }
 }
