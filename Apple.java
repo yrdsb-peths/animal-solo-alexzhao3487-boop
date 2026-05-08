@@ -15,6 +15,9 @@ public class Apple extends Actor
     public void act()
     {
         // Add your action code here.
+        GreenfootImage image = new GreenfootImage("apple2.png");
+        image.scale(50, 50);
+        setImage(image);
         int x = getX();
         int y = getY() + 2;
         setLocation(x, y);
